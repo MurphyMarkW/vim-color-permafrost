@@ -35,6 +35,7 @@ hi Character    ctermfg=38      ctermbg=NONE    cterm=NONE
 hi Label        ctermfg=38      ctermbg=NONE    cterm=NONE
 hi Constant     ctermfg=38      ctermbg=NONE    cterm=NONE
 hi String       ctermfg=38      ctermbg=NONE    cterm=NONE
+hi Identifier   ctermfg=38      ctermbg=NONE    cterm=NONE
 
 hi Function     ctermfg=42      ctermbg=NONE    cterm=NONE
 hi Operator     ctermfg=42      ctermbg=NONE    cterm=NONE
@@ -48,7 +49,6 @@ hi Repeat       ctermfg=42      ctermbg=NONE    cterm=NONE
 hi Note         ctermfg=196     ctermbg=196     cterm=NONE
 hi Keyword      ctermfg=196     ctermbg=196     cterm=NONE
 hi CursorLine   ctermfg=196     ctermbg=196     cterm=NONE
-hi Identifier   ctermfg=196     ctermbg=196     cterm=NONE
 hi StatusLine   ctermfg=196     ctermbg=196     cterm=NONE
 hi Title        ctermfg=196     ctermbg=196     cterm=NONE
 hi Special      ctermfg=196     ctermbg=196     cterm=NONE
