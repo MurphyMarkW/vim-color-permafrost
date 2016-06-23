@@ -14,19 +14,21 @@ if version > 580
 	endif
 endif
 
-set t_Co=256
 let g:colors_name = "permafrost"
 
-hi Normal   ctermfg=darkgrey    ctermbg=black   cterm=NONE
+" Don't touch normal text - leave it to the terminal.
+hi Normal       ctermfg=NONE    ctermbg=NONE    cterm=NONE
 
 hi Macro        ctermfg=29      ctermbg=NONE    cterm=NONE
 hi Include      ctermfg=29      ctermbg=NONE    cterm=NONE
 hi Comment      ctermfg=44      ctermbg=NONE    cterm=NONE
-hi Todo         ctermfg=196     ctermbg=NONE    cterm=bold
+hi Todo         ctermfg=196     ctermbg=NONE    cterm=BOLD
+hi Note         ctermfg=196     ctermbg=NONE    cterm=NONE
 hi LineNr       ctermfg=16      ctermbg=NONE    cterm=NONE
 
 hi Type         ctermfg=75      ctermbg=NONE    cterm=NONE
 hi Typedef      ctermfg=75      ctermbg=NONE    cterm=NONE
+hi Keyword      ctermfg=75      ctermbg=NONE    cterm=NONE
 
 hi Float        ctermfg=38      ctermbg=NONE    cterm=NONE
 hi Number       ctermfg=38      ctermbg=NONE    cterm=NONE
@@ -46,16 +48,14 @@ hi Repeat       ctermfg=42      ctermbg=NONE    cterm=NONE
 
 " TODO these need syntax matching entries and then placement
 
-hi Note         ctermfg=196     ctermbg=196     cterm=NONE
-hi Keyword      ctermfg=196     ctermbg=196     cterm=NONE
 hi CursorLine   ctermfg=196     ctermbg=196     cterm=NONE
 hi StatusLine   ctermfg=196     ctermbg=196     cterm=NONE
 hi Title        ctermfg=196     ctermbg=196     cterm=NONE
 hi Special      ctermfg=196     ctermbg=196     cterm=NONE
+hi IncSearch    ctermfg=white   ctermbg=black   cterm=BOLD
 
-" TODO curate the rest of these
+" TODO curate the rest of these as they come up
 
-hi IncSearch guifg=#2d393e guibg=#83e3e6 guisp=#83e3e6 gui=NONE ctermfg=237 ctermbg=116 cterm=NONE
 hi WildMenu guifg=NONE guibg=#A1A6A8 guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
 hi SignColumn guifg=#2d393e guibg=#536991 guisp=#536991 gui=NONE ctermfg=237 ctermbg=60 cterm=NONE
 hi SpecialComment guifg=#d6ab00 guibg=NONE guisp=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE
