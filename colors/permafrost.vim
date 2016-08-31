@@ -52,6 +52,7 @@ hi PreProc          ctermfg=172     ctermbg=NONE    cterm=NONE
 hi SpecialComment   ctermfg=172     ctermbg=NONE    cterm=NONE
 hi StorageClass     ctermfg=172     ctermbg=NONE    cterm=NONE
 hi PreCondit        ctermfg=172     ctermbg=NONE    cterm=NONE
+hi Define           ctermfg=172     ctermbg=NONE    cterm=NONE
 
 hi Function         ctermfg=42      ctermbg=NONE    cterm=NONE
 hi Operator         ctermfg=42      ctermbg=NONE    cterm=NONE
@@ -100,7 +101,6 @@ hi TabLineFill   ctermfg=196 ctermbg=196 cterm=NONE
 hi WarningMsg   ctermfg=196 ctermbg=196 cterm=NONE
 hi DiffDelete   ctermfg=196 ctermbg=196 cterm=NONE
 hi CursorColumn   ctermfg=196 ctermbg=196 cterm=NONE
-hi Define   ctermfg=196 ctermbg=196 cterm=NONE
 hi FoldColumn   ctermfg=196 ctermbg=196 cterm=NONE
 "hi EnumerationName -- no settings --
 hi MoreMsg   ctermfg=196 ctermbg=196 cterm=NONE
