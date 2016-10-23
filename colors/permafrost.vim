@@ -53,6 +53,7 @@ hi SpecialComment   ctermfg=172     ctermbg=NONE    cterm=NONE
 hi StorageClass     ctermfg=172     ctermbg=NONE    cterm=NONE
 hi PreCondit        ctermfg=172     ctermbg=NONE    cterm=NONE
 hi Define           ctermfg=172     ctermbg=NONE    cterm=NONE
+hi Underlined       ctermfg=172     ctermbg=NONE    cterm=NONE
 
 hi Function         ctermfg=42      ctermbg=NONE    cterm=NONE
 hi Operator         ctermfg=42      ctermbg=NONE    cterm=NONE
@@ -114,7 +115,6 @@ hi Tag   ctermfg=196 ctermbg=196 cterm=NONE
 "hi LocalVariable -- no settings --
 "hi CTagsClass -- no settings --
 hi Directory   ctermfg=196 ctermbg=196 cterm=NONE
-hi Underlined   ctermfg=196 ctermbg=196 cterm=NONE
 hi DiffAdd   ctermfg=196 ctermbg=196 cterm=NONE
 hi TabLine   ctermfg=196 ctermbg=196 cterm=NONE
 hi cursorim   ctermfg=196 ctermbg=196 cterm=NONE
